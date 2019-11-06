@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+margin:0px 0px; 
+padding:0px; 
+}
+ 
+#container {
+	position:relative;
+	margin:0;
+	padding:0;
+	width:726px;
+	height:88px;
+	border: 1px, solid, white;
+	overflow:hidden;
+	background:url('bg.jpg');
+}
+
+#text1 {
+	background: url('textPair.png') no-repeat -69px -14px;
+	width: 162px;
+	height: 41px;
+	position:absolute;
+	left:129px;
+	top:20px;
+}
+
+#printerUP {
+	position:absolute;
+	width:728px;
+	height:90px;
+	background:url('PrinterUp.png') no-repeat 300px;
+	top:4px;
+}
+
+#text2 {
+	background: url('textPair.png') no-repeat -50px -64px;
+	width: 200px;
+	height: 19px;
+	position:absolute;
+	left:110px;
+	top:20px;
+}
+
+#hand {
+	position:absolute;
+	width:300px;
+	height:90px;
+	background:url('handPair.png') 0 90px;
+	opacity:0;
+	left: 400px;
+}
+
+
+#paper {
+	position:absolute;
+	top:-6px;
+	width:728px;
+	height:90px;
+	background:url('paperPair.png') no-repeat 300px;
+}
+
+#printerDown {
+	position:absolute;
+	width:728px;
+	height:90px;
+	background:url('PrinterDown.png') no-repeat 300px;
+	top:4px;
+
+}
+
+#text3 {
+	background: url('textPair.png') no-repeat -59px -94px;
+	width: 183px;
+	height: 37px;
+	position:absolute;
+	left:118px;
+	top:20px;
+}
+
+#text4 {
+	background: url('textPair.png') no-repeat -10px -146px;
+	width: 280px;
+	height: 59px;
+	position:absolute;
+	left:70px;
+	top:15px;
+}
+
+
+#phone {
+	position:absolute;
+	background: url('phone.png') no-repeat 300px;
+	width:728px;
+	height:90px;
+	left:40px;
+	top:4px;
+
+}
+
+#LogoHP {
+	background: url('textPair.png') no-repeat -13px -252px;
+	width: 68px;
+	height: 49px;
+	position:absolute;
+	left:12px;
+	top:18px;
+}
+
+#LogoBBY {
+	background: url('textPair.png') no-repeat -119px -266px;
+	width: 50px;
+	height: 36px;
+	position:absolute;
+	left:122px;
+	top:190px;
+}
+
+#cta {
+	background: url('textPair.png') no-repeat -201px -274px;
+	width: 84px;
+	height: 26px;
+	position:absolute;
+	left:632px;
+	top:30px;
+}
+
+#empty {
+	position:absolute;
+	width:728px;
+	height:90px;
+	background-color:white;
+}
+#legal {
+	position: absolute;
+    top:-90px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+	background: url("legal.png") no-repeat;
+	cursor:pointer;
+}
+#details {
+	position: absolute;
+	top: 60px;
+	left: 670px;
+    width: 38px;
+    height: 11px;
+	background: url("Details.png") no-repeat;
+	cursor:pointer;
+}
